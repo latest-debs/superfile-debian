@@ -6,4 +6,14 @@ artifact_format: tar.gz
 description: "A fast, modern terminal file manager written in Go, with multi-panel navigation, previews, and plugin support."
 license: MIT
 
+# superfile's release archives wrap the actual binary two levels deep:
+# dist/superfile-linux-v<VERSION>-<ARCH>/spf (note: the real binary is
+# named "spf", not "superfile" - that's superfile's own upstream command
+# name, kept as-is rather than renamed). The inner directory always
+# exactly repeats the archive's own name, which embeds both the version
+# and arch, so a static path would break on every release/arch - "dist/*"
+# relies on Docker COPY's native glob support to resolve it dynamically
+# at build time regardless of what the version/arch happen to be.
+binary_path: "dist/*"
+
 # Build for all Debian suites and all supported architectures.
