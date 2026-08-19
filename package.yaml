@@ -1,0 +1,9 @@
+# Package definition for superfile
+
+package_name: superfile
+github_repo: yorukot/superfile
+artifact_format: tar.gz
+description: "A fast, modern terminal file manager written in Go, with multi-panel navigation, previews, and plugin support."
+license: MIT
+
+# Build for all Debian suites and all supported architectures.

@@ -1,0 +1,41 @@
+{
+  "gate": "warn",
+  "license": {
+    "declared": "MIT",
+    "detected": [],
+    "license_files": [],
+    "matches": false,
+    "status": "warn",
+    "detail": "declared MIT but no license/SPDX content detected in archive"
+  },
+  "asset": {
+    "format": "tar.gz",
+    "size": 13490110,
+    "valid": true,
+    "is_html": false,
+    "binary": "spf",
+    "elf_arch": "x86-64",
+    "status": "pass",
+    "detail": "valid tar.gz archive containing 1 ELF executable(s); first: spf (x86-64); release covers: amd64 arm64 "
+  },
+  "architectures": {
+    "covered": [
+      "amd64",
+      "arm64"
+    ],
+    "missing": [
+      "armel",
+      "armhf",
+      "i386",
+      "ppc64el",
+      "s390x",
+      "riscv64",
+      "loong64"
+    ],
+    "assets": {
+      "amd64": "superfile-linux-v1.6.0-amd64.tar.gz",
+      "arm64": "superfile-linux-v1.6.0-arm64.tar.gz"
+    }
+  },
+  "vetted_at": "2026-08-19T15:18:58Z"
+}

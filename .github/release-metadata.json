@@ -1,0 +1,27 @@
+{
+  "package": "superfile",
+  "upstream_repo": "yorukot/superfile",
+  "version": "v1.6.0",
+  "tag": "v1.6.0",
+  "published_at": "2026-06-07T17:54:13Z",
+  "license": "MIT",
+  "asset": "superfile-linux-v1.6.0-amd64.tar.gz",
+  "asset_size": 13490110,
+  "sha256": "d45b0e95072629a6aa7983a84eedca9cd7a98861e67ef91be1415496e3dda309",
+  "expected_sha256": "d45b0e95072629a6aa7983a84eedca9cd7a98861e67ef91be1415496e3dda309",
+  "checksum_source": "superfile-v1.6.0-checksums.txt",
+  "checksum_verified": true,
+  "assets": {
+    "superfile-linux-v1.6.0-amd64.tar.gz": {
+      "sha256": "d45b0e95072629a6aa7983a84eedca9cd7a98861e67ef91be1415496e3dda309",
+      "size": 13490110
+    },
+    "superfile-linux-v1.6.0-arm64.tar.gz": {
+      "sha256": "2e8150dab1a139e3a081bd74a9c775155e8d0241c34ae3f8d30817a3df1b8f06",
+      "size": 12358649
+    }
+  },
+  "asset_count": 2,
+  "vetted_at": "2026-08-19T15:18:57Z",
+  "vetted_by": ""
+}
